@@ -1,0 +1,14 @@
+INSERT INTO students (id, name, age, gender) VALUES
+(1, 'Yahoo Baba', 20, 'M'),
+(2, 'Jane Doe', 22, 'F'),
+(3, 'John Smith', 19, 'M'),
+(4, 'Emily Rose', 21, 'F'),
+(5, 'Chris Evan', 23, 'M');
+
+-- Insert fake data into the contacts table
+INSERT INTO contacts (id, email, phone, address, city, student_id) VALUES
+(1, 'test@gmail.com', '01734738336', '#235 Yb Road', 'Chuadanga', 1),
+(2, 'example@yahoo.com', '01928374656', '#15 Elm Street', 'Dhaka', 2),
+(3, 'hello@outlook.com', '01849384756', 'Flat 5B, Main Road', 'Khulna', 3),
+(4, 'user@gmail.com', '01584756384', 'House #10, City Park', 'Rajshahi', 4),
+(5, 'demo@mail.com', '01684738293', 'Block C, Green City', 'Sylhet', 5);
